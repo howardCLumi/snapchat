@@ -1,4 +1,4 @@
-## Howard Chi, Snacpchat Applicant!
+## Howard Chi, Snapchat Applicant!
 
 ## Small Company in LA: Pet Pride Cat Shelter
 I chose to create a website for Pet Pride Cat Shelter in LA because one of my goals is to help stray/abandoned cats! I love cats.
