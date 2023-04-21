@@ -1,7 +1,6 @@
 .footer{
     height: 50px;
-    border: 1px solid #dfdfdf;
-    background-color: #000000;
+    background-color: #121314;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -16,25 +15,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.footer__mainlogo{
-    height: 50px;
-    padding: 0 20px;
-}
-.footer__snapchatlogo{
-    height: 30px;
-    width: 30px;
-    padding: 0 20px;
-}
-.footer__navigation{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.footer__navigation-home{
-    margin-right: 12px;
-    color: #dfdfdf;
-}
-.footer__navigation-contact{
-    margin-right: 12px;
-    color: #dfdfdf;
+.footer__text{
+    font-weight: bold;
+    margin:auto;
+    color: #fff;
 }

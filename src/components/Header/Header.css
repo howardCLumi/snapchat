@@ -6,7 +6,7 @@
     width: 100%
 }
 .header__content{
-    width: 80%;
+    max-width: 1000px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -14,11 +14,11 @@
     justify-content: space-between;
     align-items: center;
 }
-.header__mainlogo{
-    height: 50px;
+.header__main-logo{
+    height: 30px;
     padding: 0 20px;
 }
-.header__snapchatlogo{
+.header__snapchat-logo{
     height: 30px;
     width: 30px;
     padding: 0 20px;
@@ -28,6 +28,19 @@
     flex-direction: row;
     align-items: center;
 }
-.header__navigation-link{
+.header__navigation-home{
     margin-right: 12px;
+    font-weight: 600;
+}
+.header__navigation-shop{
+    margin-right: 12px;
+    font-weight: 600;
+}
+.header__navigation-cats{
+    margin-right: 12px;
+    font-weight: 600;
+}
+.header__navigation-contact{
+    margin-right: 0px;
+    font-weight: 600;
 }
