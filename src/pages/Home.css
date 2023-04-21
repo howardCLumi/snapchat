@@ -1,4 +1,30 @@
 .home{
     background-color: #FFFC00;
-    margin-top: 50px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 96vh;
+
+}
+.home > * {
+    padding: 20px;
+  }
+.hello{
+    flex-grow: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+}
+.image{
+    flex-grow: 1;
+    background-color: #f50000;
+    display: flex;
+    height: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
 }
