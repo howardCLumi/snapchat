@@ -44,3 +44,9 @@
     margin-right: 0px;
     font-weight: 600;
 }
+.header__lottie{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    padding-top: 5px;
+}

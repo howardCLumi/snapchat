@@ -11,6 +11,7 @@
     max-width: 1000px;
     margin: 0 auto;
     grid-template-columns: 2fr 1fr;
+    
 }
 .home > * {
     padding: 20px;

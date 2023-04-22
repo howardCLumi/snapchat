@@ -1,5 +1,6 @@
 import React from "react";
-import nova from "../../src/assets/homenova.jpg";
+import nova from "../assets/homenova.jpg";
+
 import "./Home.css";
 
 const Home = () => {
