@@ -2,25 +2,16 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Snapchat from "../../assets/Snapchatlogo.svg";
 import catlogo from "../../assets/blackcatlogo.svg";
-import Lottie from "react-lottie";
-import * as animationData from "../../assets/blackcatrunning.json";
+import Lottie from "lottie-react";
+import blackcatrunning from "../../assets/blackcatrunning.json";
 import "./Header.css";
 
 const Header = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
     <header className="header">
       <div className="header__content">
         <div className="header__lottie">
-          <Lottie options={defaultOptions} />
+          <Lottie animationData={blackcatrunning} loop={true} />
           {/* <img src={catlogo} className="header__main-logo" alt="" /> */}
         </div>
         <nav className="header__navigation">
