@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 .home{
     background-color: #FFFC00;
     max-width: 100%;
@@ -35,6 +37,28 @@
 }
 .home__bottom{
     background-color: rgb(248, 249, 251);
+}
+.home__continue-button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 40px;
+    background: hsl(0, 0%, 1%);
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.home__continue-button:hover{
+    background: #131313;
+    color:#fff;
+    letter-spacing: 4px;
+    clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
 }
 @media screen and (max-width: 600px) {
     .home__container{

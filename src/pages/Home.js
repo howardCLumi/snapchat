@@ -17,7 +17,9 @@ const Home = () => {
               Browse, Call, and adopt<br></br>
               any cat from wherever you are.
             </h2>
-            <button type="button">Click Me!</button>
+            <a className="home__continue-button" href="https://www.google.com/">
+              Continue to Website
+            </a>
           </div>
           <div>
             <img src={nova} className="home__nova" alt="" />
