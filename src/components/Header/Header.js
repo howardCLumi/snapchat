@@ -37,7 +37,7 @@ const Header = () => {
             Contact
           </NavLink>
           <a href="https://www.Snapchat.com/">
-            <img src={Snapchat} className="header__snapchat-logo" alt="" />
+            <img src={catlogo} className="header__main-logo" alt="" />
           </a>
         </nav>
       </div>
