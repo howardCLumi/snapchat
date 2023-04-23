@@ -19,7 +19,7 @@ const Home = () => {
               any cat from wherever you are.
             </h2>
             <br></br>
-            <a className="home__body-continue-button" href="cats">
+            <a className="home__body-continue-button" href="/cats">
               Continue to Website
             </a>
           </div>

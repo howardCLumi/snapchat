@@ -6,7 +6,6 @@ import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import Welcome from "./pages/Welcome";
 import Cats from "./pages/Cats";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
-        <Route exact path="/welcome" element={<Welcome />}></Route>
         <Route exact path="/cats" element={<Cats />}></Route>
       </Routes>
       <Footer />
