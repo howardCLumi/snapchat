@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Snapchat from "../../assets/Snapchatlogo.svg";
 import catlogo from "../../assets/blackcatlogo.svg";
 import Lottie from "lottie-react";
 import blackcatrunning from "../../assets/blackcatrunning.json";
@@ -12,7 +11,7 @@ const Header = () => {
       <div className="header__content">
         <div className="header__lottie">
           <Lottie animationData={blackcatrunning} loop={true} />
-          {/* <img src={catlogo} className="header__main-logo" alt="" /> */}
+          {}
         </div>
         <nav className="header__navigation">
           <NavLink className="header__navigation-home" to="/">
