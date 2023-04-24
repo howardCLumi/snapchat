@@ -1,10 +1,8 @@
 import React from "react";
 import nova from "../assets/homenova.jpg";
-import { Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 import "./Home.css";
-import Cats from "../pages/Cats";
 
 const Home = () => {
   return (
