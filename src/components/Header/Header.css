@@ -3,7 +3,8 @@
     background-color: #FFFC00;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    z-index: 1;
 }
 .header__content{
     max-width: 1000px;
@@ -50,4 +51,5 @@
     width: 90px;
     margin-top: 44px;
     padding-top: 5px;
+    z-index: 1;
 }

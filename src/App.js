@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import Faq from "./pages/Faq";
 import Cats from "./pages/Cats";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/contact" element={<Contact />}></Route>
+        <Route exact path="/faq" element={<Faq />}></Route>
         <Route exact path="/cats" element={<Cats />}></Route>
       </Routes>
       <Footer />
