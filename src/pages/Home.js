@@ -1,7 +1,10 @@
 import React from "react";
 import nova from "../assets/homenova.jpg";
+import { Routes, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./Home.css";
+import Cats from "../pages/Cats";
 
 const Home = () => {
   return (
@@ -19,9 +22,9 @@ const Home = () => {
               any cat from wherever you are.
             </h2>
             <br></br>
-            <a className="home__body-continue-button" href="/cats">
+            <NavLink className="home__body-continue-button" to="/cats">
               Continue to Website
-            </a>
+            </NavLink>
           </div>
           <div>
             <img src={nova} className="home__body-nova" alt="" />
