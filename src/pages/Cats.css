@@ -3,6 +3,7 @@
     max-width: 100%;
     margin: 0 auto;
     background-color: #E6B89C;
+    padding-bottom: 100px;
 }
 .cats__container{
     display: grid;
@@ -37,6 +38,7 @@
     width: 50%;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease
     
 }
 .cats__cat-one-photo:hover{

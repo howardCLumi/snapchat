@@ -70,19 +70,17 @@ const Home = () => {
                 <br />
                 <br />
                 Click the button below for their official website!
-                <br />
-                <br />
               </p>
               <div>
                 <img src={salute} className="home__bottom-salute" alt="" />
               </div>
+              <a
+                className="home__bottom-continue-button"
+                href="http://www.petpride.org/"
+              >
+                PetPride.com
+              </a>
             </div>
-            <a
-              className="home__bottom-continue-button"
-              href="http://www.petpride.org/"
-            >
-              PetPride.com
-            </a>
           </div>
         </div>
       </div>
