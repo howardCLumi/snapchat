@@ -22,7 +22,7 @@
   width: 100%;
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   font-size: 40px;
   padding: 0.5%;
 }
@@ -69,8 +69,12 @@
 }
 .faq__resume-container {
   margin: auto;
+  padding: 20px;
 }
 .faq__resume {
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.faq__cover-letter {
+  padding-top: 20px;
 }
